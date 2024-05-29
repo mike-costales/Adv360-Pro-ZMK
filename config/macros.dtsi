@@ -4,11 +4,11 @@
     #binding-cells = <0>;
     bindings = <&kp LS(LG(NUMBER_5))>;
   };
-  macro_screenshot: macro_paste_match{
+  macro_paste_match: macro_paste_match{
     compatible = "zmk,behavior-macro";
     label = "macro_paste_match";
     #binding-cells = <0>;
-    bindings = <&kp LALT(LS(LG(NUMBER_5)))>;
+    bindings = <&kp LALT(LS(LG(&kp v)))>;
   };
 
 macro_quotes: macro_quotes{
